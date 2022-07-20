@@ -15,10 +15,18 @@ function Outline(props) {
 export default function App() {
   return (
     <Outline>
-      <Text color="red">tag1 </Text>
-      <Text color="green">tag2 </Text>
-      <Text color="blue">tag3 </Text>
-      <Text color="silver">tag4 </Text>
+      <Outline>
+        <Text color="red">tag1 </Text>
+      </Outline>
+      <Outline>
+        <Text color="green">tag2 </Text>
+      </Outline>
+      <Outline>
+        <Text color="blue">tag3 </Text>
+      </Outline>
+      <Outline>
+        <Text color="silver">tag4 </Text>
+      </Outline>
     </Outline>
   );
 }
